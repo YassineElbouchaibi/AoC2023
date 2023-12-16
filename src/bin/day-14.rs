@@ -105,6 +105,7 @@ fn tilt_row_left(column: &Vec<char>) -> Vec<char> {
     tilted_column
 }
 
+#[allow(dead_code)]
 fn format_row(row: &Vec<char>) -> String {
     row.iter().collect()
 }
